@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this code."
+title: "Structure and exact algorithms for outer-connected semitotal double Roman domination in generalized coronas"
+type: software
+authors:
+  - family-names: Sun
+    given-names: Feng
+keywords:
+  - graph theory
+  - double Roman domination
+  - generalized coronas
+  - dynamic programming
+  - mixed-integer programming
+repository-code: "https://github.com/sunsz2005/OCSTDR"
+url: "https://github.com/sunsz2005/OCSTDR"
