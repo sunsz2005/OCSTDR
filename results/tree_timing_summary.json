@@ -1,0 +1,130 @@
+[
+  {
+    "m": 100,
+    "family": "path",
+    "calls": 15,
+    "median_seconds": 0.00023560000000077963,
+    "min_seconds": 0.00022490000000008337,
+    "max_seconds": 0.0003326999999995195
+  },
+  {
+    "m": 100,
+    "family": "star",
+    "calls": 15,
+    "median_seconds": 0.00022799999999989495,
+    "min_seconds": 0.00021519999999952688,
+    "max_seconds": 0.0004204000000003205
+  },
+  {
+    "m": 100,
+    "family": "binary",
+    "calls": 15,
+    "median_seconds": 0.00024320000000077613,
+    "min_seconds": 0.0002364999999997508,
+    "max_seconds": 0.00033729999999998483
+  },
+  {
+    "m": 100,
+    "family": "recursive",
+    "calls": 15,
+    "median_seconds": 0.00024449999999998084,
+    "min_seconds": 0.00022890000000064248,
+    "max_seconds": 0.00028719999999982093
+  },
+  {
+    "m": 1000,
+    "family": "path",
+    "calls": 15,
+    "median_seconds": 0.0021903999999999257,
+    "min_seconds": 0.0021650000000006386,
+    "max_seconds": 0.002613900000000058
+  },
+  {
+    "m": 1000,
+    "family": "star",
+    "calls": 15,
+    "median_seconds": 0.002140599999999715,
+    "min_seconds": 0.0020689999999996544,
+    "max_seconds": 0.003750499999999768
+  },
+  {
+    "m": 1000,
+    "family": "binary",
+    "calls": 15,
+    "median_seconds": 0.0026874000000001175,
+    "min_seconds": 0.0023211999999999122,
+    "max_seconds": 0.0045477000000007095
+  },
+  {
+    "m": 1000,
+    "family": "recursive",
+    "calls": 15,
+    "median_seconds": 0.0026412999999996245,
+    "min_seconds": 0.00244330000000037,
+    "max_seconds": 0.002893900000000116
+  },
+  {
+    "m": 10000,
+    "family": "path",
+    "calls": 15,
+    "median_seconds": 0.021149499999999932,
+    "min_seconds": 0.020150399999999458,
+    "max_seconds": 0.023265000000000313
+  },
+  {
+    "m": 10000,
+    "family": "star",
+    "calls": 15,
+    "median_seconds": 0.020438200000000073,
+    "min_seconds": 0.01948300000000014,
+    "max_seconds": 0.024586600000000125
+  },
+  {
+    "m": 10000,
+    "family": "binary",
+    "calls": 15,
+    "median_seconds": 0.022443700000000177,
+    "min_seconds": 0.021585899999999825,
+    "max_seconds": 0.025019600000000253
+  },
+  {
+    "m": 10000,
+    "family": "recursive",
+    "calls": 15,
+    "median_seconds": 0.026915500000000314,
+    "min_seconds": 0.02611130000000017,
+    "max_seconds": 0.03649440000000048
+  },
+  {
+    "m": 100000,
+    "family": "path",
+    "calls": 15,
+    "median_seconds": 0.22119990000000023,
+    "min_seconds": 0.20613129999999913,
+    "max_seconds": 0.2403120999999988
+  },
+  {
+    "m": 100000,
+    "family": "star",
+    "calls": 15,
+    "median_seconds": 0.21678009999999936,
+    "min_seconds": 0.20490789999999848,
+    "max_seconds": 0.24668050000000008
+  },
+  {
+    "m": 100000,
+    "family": "binary",
+    "calls": 15,
+    "median_seconds": 0.23316330000000107,
+    "min_seconds": 0.21537760000000006,
+    "max_seconds": 0.2564025000000001
+  },
+  {
+    "m": 100000,
+    "family": "recursive",
+    "calls": 15,
+    "median_seconds": 0.3983157999999989,
+    "min_seconds": 0.3869796000000001,
+    "max_seconds": 0.42203630000000203
+  }
+]

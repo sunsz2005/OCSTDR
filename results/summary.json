@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "seed": 20261020,
+    "python": "3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]",
+    "scipy": "1.10.1",
+    "numpy": "1.24.4",
+    "networkx": "2.5",
+    "platform": "Windows-10-10.0.19041-SP0",
+    "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+    "logical_cpus": 8,
+    "timing": "perf_counter wall time; includes rooting, reconstruction and result checks; excludes graph generation; no counting"
+  },
+  "trees": {
+    "instances": 5304,
+    "reroot_checks": 750,
+    "extra_edge_cases": 30
+  },
+  "atlas": {
+    "instances": 92,
+    "rooted_models": 413,
+    "original_label_milp_checks": 29,
+    "direct_label_checks": 14,
+    "count_counterexample": {
+      "core_minimizers": 1,
+      "function_minimizers": 2
+    }
+  },
+  "random_general": {
+    "instances": 24,
+    "rooted_models": 216
+  },
+  "benchmark": [
+    {
+      "m": 100,
+      "family": "path",
+      "calls": 15,
+      "median_seconds": 0.00023560000000077963,
+      "min_seconds": 0.00022490000000008337,
+      "max_seconds": 0.0003326999999995195
+    },
+    {
+      "m": 100,
+      "family": "star",
+      "calls": 15,
+      "median_seconds": 0.00022799999999989495,
+      "min_seconds": 0.00021519999999952688,
+      "max_seconds": 0.0004204000000003205
+    },
+    {
+      "m": 100,
+      "family": "binary",
+      "calls": 15,
+      "median_seconds": 0.00024320000000077613,
+      "min_seconds": 0.0002364999999997508,
+      "max_seconds": 0.00033729999999998483
+    },
+    {
+      "m": 100,
+      "family": "recursive",
+      "calls": 15,
+      "median_seconds": 0.00024449999999998084,
+      "min_seconds": 0.00022890000000064248,
+      "max_seconds": 0.00028719999999982093
+    },
+    {
+      "m": 1000,
+      "family": "path",
+      "calls": 15,
+      "median_seconds": 0.0021903999999999257,
+      "min_seconds": 0.0021650000000006386,
+      "max_seconds": 0.002613900000000058
+    },
+    {
+      "m": 1000,
+      "family": "star",
+      "calls": 15,
+      "median_seconds": 0.002140599999999715,
+      "min_seconds": 0.0020689999999996544,
+      "max_seconds": 0.003750499999999768
+    },
+    {
+      "m": 1000,
+      "family": "binary",
+      "calls": 15,
+      "median_seconds": 0.0026874000000001175,
+      "min_seconds": 0.0023211999999999122,
+      "max_seconds": 0.0045477000000007095
+    },
+    {
+      "m": 1000,
+      "family": "recursive",
+      "calls": 15,
+      "median_seconds": 0.0026412999999996245,
+      "min_seconds": 0.00244330000000037,
+      "max_seconds": 0.002893900000000116
+    },
+    {
+      "m": 10000,
+      "family": "path",
+      "calls": 15,
+      "median_seconds": 0.021149499999999932,
+      "min_seconds": 0.020150399999999458,
+      "max_seconds": 0.023265000000000313
+    },
+    {
+      "m": 10000,
+      "family": "star",
+      "calls": 15,
+      "median_seconds": 0.020438200000000073,
+      "min_seconds": 0.01948300000000014,
+      "max_seconds": 0.024586600000000125
+    },
+    {
+      "m": 10000,
+      "family": "binary",
+      "calls": 15,
+      "median_seconds": 0.022443700000000177,
+      "min_seconds": 0.021585899999999825,
+      "max_seconds": 0.025019600000000253
+    },
+    {
+      "m": 10000,
+      "family": "recursive",
+      "calls": 15,
+      "median_seconds": 0.026915500000000314,
+      "min_seconds": 0.02611130000000017,
+      "max_seconds": 0.03649440000000048
+    },
+    {
+      "m": 100000,
+      "family": "path",
+      "calls": 15,
+      "median_seconds": 0.22119990000000023,
+      "min_seconds": 0.20613129999999913,
+      "max_seconds": 0.2403120999999988
+    },
+    {
+      "m": 100000,
+      "family": "star",
+      "calls": 15,
+      "median_seconds": 0.21678009999999936,
+      "min_seconds": 0.20490789999999848,
+      "max_seconds": 0.24668050000000008
+    },
+    {
+      "m": 100000,
+      "family": "binary",
+      "calls": 15,
+      "median_seconds": 0.23316330000000107,
+      "min_seconds": 0.21537760000000006,
+      "max_seconds": 0.2564025000000001
+    },
+    {
+      "m": 100000,
+      "family": "recursive",
+      "calls": 15,
+      "median_seconds": 0.3983157999999989,
+      "min_seconds": 0.3869796000000001,
+      "max_seconds": 0.42203630000000203
+    }
+  ],
+  "wall_seconds": 30.2631419,
+  "code_sha256": {
+    "check_response.py": "a2a6cda4410926238d8394241a10d8cc40d5df541cf5d7442ea354f9cad8f221",
+    "core_solvers.py": "2f7b11bd54994753df7373c0b8ed634882e5618ddccc7841e29fae4faf0f855c",
+    "make_tables.py": "6014f5c349f79ce155bfa150fd678e7d5ce5e66ec2c51ec50dc7a96ff0f6e817",
+    "original_label_milp.py": "1debe1056aa8ae4e8bc5ef67f4b14e8eb1a2c522211e60dacea7a24bf0e2716b",
+    "run_experiments.py": "8b0f002ba027193bc88b4e13061cae7003119e026ae4334df6f56c021cddcc9d",
+    "verify_ocstdr.py": "441838c245aa5d53261e3f413b35823dd7256299521fd73784da5d3a34d94fe9"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "checked_predictions": 11720,
+  "path_example": {
+    "k": [
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    "vertex": 2,
+    "response": {
+      "inside": -2,
+      "outside": -1,
+      "threshold": 1,
+      "baseline": 16
+    },
+    "values": [
+      {
+        "t": 0,
+        "value": 16
+      },
+      {
+        "t": 1,
+        "value": 18
+      },
+      {
+        "t": 2,
+        "value": 19
+      },
+      {
+        "t": 3,
+        "value": 20
+      },
+      {
+        "t": 4,
+        "value": 21
+      },
+      {
+        "t": 5,
+        "value": 22
+      }
+    ]
+  }
+}
